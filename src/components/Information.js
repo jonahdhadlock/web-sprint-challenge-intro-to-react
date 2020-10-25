@@ -10,6 +10,7 @@ function Information(props) {
                 <li>Mass: {props.mass}kg</li>
                 <li>Birth: 41.9BBY</li>
                 <li>Planet: Tatooine</li>
+                <li>Alignment: Dark</li>
             </ul>
         </div>
     );
