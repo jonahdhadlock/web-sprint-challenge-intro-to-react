@@ -1,42 +1,176 @@
-.App {
-  text-align: center;
+@media (min-width: 1024px) {
+  .App {
+    text-align: center;
+  }
+  body {
+    background-image: url("https://wallpaperset.com/w/full/c/1/4/427159.jpg");
+  }
+  #name {
+    font-family: "Trade Winds", cursive;
+    font-size: 3.5rem;
+    color: #ff2300;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 50px;
+  }
+  #darthVader {
+    width: 450px;
+    margin-bottom: 25px;
+  }
+  #quoteText {
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 50px;
+  }
+  #quotation {
+    font-family: "Trispace", sans-serif;
+    font-size: 1.5rem;
+    word-wrap: normal;
+    color: #eee;
+  }
+  #infoText {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #infoList {
+    font-family: "Trispace", sans-serif;
+    font-size: 1.3rem;
+    color: #eee;
+    list-style-type: none;
+  }
 }
-body {
-  background-image: url("https://wallpaperset.com/w/full/c/1/4/427159.jpg");
+@media (max-width: 1023px) {
+  .App {
+    text-align: center;
+  }
+  body {
+    background-image: url("https://wallpaperset.com/w/full/c/1/4/427159.jpg");
+  }
+  #name {
+    font-family: "Trade Winds", cursive;
+    font-size: 3.5rem;
+    color: #ff2300;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 50px;
+  }
+  #darthVader {
+    width: 450px;
+    margin-bottom: 25px;
+  }
+  #quoteText {
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 50px;
+  }
+  #quotation {
+    font-family: "Trispace", sans-serif;
+    font-size: 1.5rem;
+    word-wrap: normal;
+    color: #eee;
+  }
+  #infoText {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #infoList {
+    font-family: "Trispace", sans-serif;
+    font-size: 1.3rem;
+    color: #eee;
+    list-style-type: none;
+  }
 }
-#name {
-  font-family: "Trade Winds", cursive;
-  font-size: 3.5rem;
-  color: #ff2300;
-  text-shadow: 5px 5px 5px black;
-  margin-bottom: 50px;
+@media (max-width: 800px) {
+  .App {
+    text-align: center;
+  }
+  body {
+    background-image: url("https://wallpaperset.com/w/full/c/1/4/427159.jpg");
+  }
+  #name {
+    font-family: "Trade Winds", cursive;
+    font-size: 3.5rem;
+    color: #ff2300;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 50px;
+  }
+  #darthVader {
+    width: 450px;
+    margin-bottom: 25px;
+  }
+  #quoteText {
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 50px;
+  }
+  #quotation {
+    font-family: "Trispace", sans-serif;
+    font-size: 1.5rem;
+    word-wrap: normal;
+    color: #eee;
+  }
+  #infoText {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #infoList {
+    font-family: "Trispace", sans-serif;
+    font-size: 1.3rem;
+    color: #eee;
+    list-style-type: none;
+  }
 }
-#darthVader {
-  width: 450px;
-  margin-bottom: 25px;
-}
-#quoteText {
-  width: 325px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  margin-bottom: 50px;
-}
-#quotation {
-  font-family: "Trispace", sans-serif;
-  font-size: 1.5rem;
-  word-wrap: normal;
-  color: #eee;
-}
-#infoText {
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-}
-#infoList {
-  font-family: "Trispace", sans-serif;
-  font-size: 1.3rem;
-  color: #eee;
-  list-style-type: none;
+@media (max-width: 500px) {
+  .App {
+    text-align: center;
+  }
+  body {
+    background-image: url("https://wallpaperset.com/w/full/c/1/4/427159.jpg");
+  }
+  #name {
+    font-family: "Trade Winds", cursive;
+    font-size: 2.7rem;
+    color: #ff2300;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 25px;
+  }
+  #darthVader {
+    width: 250px;
+    margin-bottom: 15px;
+  }
+  #quoteText {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  #quotation {
+    font-family: "Trispace", sans-serif;
+    font-size: 1.4rem;
+    word-wrap: normal;
+    color: #eee;
+  }
+  #infoText {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #infoList {
+    font-family: "Trispace", sans-serif;
+    font-size: 1.25rem;
+    color: #eee;
+    list-style-type: none;
+  }
 }
